@@ -1,0 +1,70 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Cores base */
+body {
+    background-color:rgb(255, 255, 255);
+    color: #6b4f3b;
+}
+
+header {
+    background-color: #f28ab2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #f9dc5c;
+}
+
+nav {
+    background-color: #f9dc5c;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #6b4f3b;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #f28ab2;
+}
+
+main {
+    padding: 30px;
+    text-align: center;
+   background-color:white;
+}
+ 
+
+
+.intro h2 {
+    color:white;
+    margin-bottom: 15px;
+}
+
+.intro p {
+    font-size: 18px;
+    line-height: 1.6;
+    background-color:#6b4f3b;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+footer {
+    background-color:#f28ab2;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}

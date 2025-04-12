@@ -48,14 +48,14 @@ main {
 
 
 .intro h2 {
-    color:white;
+    color:#6b4f3b;
     margin-bottom: 15px;
 }
 
 .intro p {
     font-size: 18px;
     line-height: 1.6;
-    background-color:#6b4f3b;
+    background-color:white;
     padding: 20px;
     border-radius: 10px;
     display: inline-block;
@@ -68,3 +68,4 @@ footer {
     padding: 15px;
     margin-top: 30px;
 }
+

@@ -39,7 +39,8 @@ nav a:hover {
   color: #f28ab2;
 }
 
-.cadastro-container {
+.cadastro-container,
+.login-container {
   background-color: #ede7f6;
   max-width: 600px;
   margin: 40px auto;
@@ -48,13 +49,15 @@ nav a:hover {
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
-.cadastro-container h2 {
+.cadastro-container h2,
+.login-container h2 {
   text-align: center;
   color: #6b4f3b;
   margin-bottom: 10px;
 }
 
-.cadastro-container p {
+.cadastro-container p,
+.login-container p {
   text-align: center;
   color: #6b4f3b;
   margin-bottom: 25px;
@@ -95,6 +98,24 @@ input[type="submit"]:hover {
   background-color: #ec407a;
 }
 
+.botao-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f06292;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+.botao-link:hover {
+  background-color: #ec407a;
+}
+
 footer {
   background-color: #f48fb1;
   color: white;
@@ -102,4 +123,3 @@ footer {
   padding: 15px;
   margin-top: 50px;
 }
-
